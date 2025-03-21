@@ -153,7 +153,7 @@ class Program
                 catch (FormatException)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine(" Vänligen ange ett giltigt pris.");
+                    Console.WriteLine(" Vänligen ange ett giltigt pris igen.");
                     Console.ResetColor();
                 }
                 catch (ArgumentException ex)
